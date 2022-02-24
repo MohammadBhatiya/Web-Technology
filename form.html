@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form for Students (Assignment)</title>
+</head>
+<body>
+    <form action="form.php">
+        <table>
+            <tr>
+                <td>First Name</td>
+                <td><input type="text" placeholder="Enter Your First Name" required></td>
+            </tr>
+            <tr>
+                <td>Last Name</td>
+                <td><input type="text" placeholder="Enter Your Last Name" required></td>
+            </tr>
+            <tr>
+                <td>Email</td>
+                <td><input type="email" placeholder="Enter your Mail" required></td>
+            </tr>
+            <tr>
+                <td>Mobile Number</td>
+                <td><input type="number" placeholder="Mobile Number" required ></td>
+            </tr>
+            <tr>
+                <td>Gender</td>
+                <td><input type="radio" name="gender" required>Male <input type="radio" name="gender" required>Female</td>
+            </tr>
+            <tr>
+                <td>Date of Birth</td>
+                <td><input type="date"></td>
+            </tr>
+            <tr>
+                <td>Address</td>
+                <td><textarea  cols="20" rows="10"></textarea></td>
+            </tr>
+            <tr>
+                <td>Qualification</td>
+                <td>
+                    <select name="" id="">
+                        <option value="">SSC</option>
+                        <option value="">HSC</option>
+                        <option value="" selected>Btech</option>
+                        <option value="">Mtech</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td rowspan="5" required>Specialization</td>
+                <td><input type="checkbox">Computer Engineering</td>
+            </tr>
+            <tr>
+                <td><input type="checkbox">IT Engineering</td>
+            </tr>
+            <tr>
+                <td><input type="checkbox">Data Analytics</td>
+            </tr>
+            <tr>
+                <td><input type="checkbox">Cyber Security</td>
+            </tr>
+            <tr>
+                <td><input type="checkbox">Artificial Intelligence</td>
+            </tr>
+            <tr>
+                <td>Password</td>
+                <td><input type="password"></td>
+            </tr>
+            <tr>
+                <td><input type="submit" value="Register"></td>
+                <td><input type="reset" value="Reset"></td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
