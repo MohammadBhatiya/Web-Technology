@@ -1,0 +1,61 @@
+input[type="text"], 
+input[type="email"],
+input[type="password"],
+input[type="number"]
+{
+    width: 80%;
+    margin: 10px 10px;
+    padding: 10px 10px;
+    font-size:15px;
+    border-radius: 10px;
+    border: none;
+}
+table{
+    width:50%;
+    background-color:bisque;
+}
+
+input[type="text"]:focus, 
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="number"]:focus {
+    background-color:aquamarine;
+    border:3px solid black;
+}
+
+select:focus,
+textarea:focus {
+    width: 80%;
+    margin: 10px 10px;
+    padding: 10px 10px;
+}
+
+input[type="submit"]
+{
+    background-color:green;
+    margin: 15px 15px;
+    border-radius: 10px;
+    padding: 20px 20px;
+    color: white;
+    width: 100px;
+    border: none;
+}
+
+input[type="reset"]
+{
+    background-color:red;
+    margin: 15px 15px;
+    border-radius: 10px;
+    padding: 20px 20px;
+    color: white;
+    width: 100px;
+    border: none;
+}
+
+input[type="submit"]:hover,
+input[type="reset"]:hover
+{
+    background-color:darkgreen;
+    color: rgb(19, 8, 1);
+    border: none;
+}
